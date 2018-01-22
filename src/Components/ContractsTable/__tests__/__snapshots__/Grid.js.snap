@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid Exists should render grid component properly 1`] = `
+<div
+  className="Grid-container undefined"
+>
+  <div
+    className="grid"
+  >
+    <div
+      className="header"
+    >
+      <div
+        className="item header-contract-hash"
+      >
+        Address
+      </div>
+      <div
+        className="item header-party-a"
+      >
+        Address Party A
+      </div>
+      <div
+        className="item header-party-b"
+      >
+        Address Party B
+      </div>
+      <div
+        className="item header-rule"
+      >
+        Rule
+      </div>
+    </div>
+  </div>
+</div>
+`;

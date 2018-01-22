@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GridContent Exists should render component properly 1`] = `
+<GridContent
+  contracts={
+    Array [
+      Object {
+        "address": "0xwere",
+        "partA": "",
+        "partB": "0x2343",
+      },
+    ]
+  }
+  getDataContracts={[Function]}
+>
+  <div
+    className="GridContent-container"
+  >
+    <div
+      className="items"
+    />
+  </div>
+</GridContent>
+`;

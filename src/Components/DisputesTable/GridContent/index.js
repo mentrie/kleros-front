@@ -8,7 +8,7 @@ import { truncateText } from '../../../helpers/truncateText'
 import { STATUS_TO_STATE } from '../../../constants'
 import './GridContent.css'
 
-class GridContent extends Component {
+export class GridContent extends Component {
   componentWillMount () {
     this.props.getDataDisputes()
   }

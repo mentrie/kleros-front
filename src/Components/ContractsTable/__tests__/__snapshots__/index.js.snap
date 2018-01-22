@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContractTable Exist should render component properly 1`] = `
+<div
+  className="ContractsTable-container"
+>
+  <SearchBar />
+  <div
+    className="content"
+  >
+    <h1>
+      Open Contracts
+      <span
+        className="pull-right"
+      >
+        <Link
+          key="new-contract"
+          replace={false}
+          to="contracts/new"
+        >
+          <button
+            className="submit"
+          >
+            New Contract
+          </button>
+        </Link>
+      </span>
+    </h1>
+    <Grid>
+      <withRouter(Connect(GridContent)) />
+    </Grid>
+  </div>
+</div>
+`;

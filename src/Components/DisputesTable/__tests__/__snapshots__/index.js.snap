@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DisputesTable Exists should render component properly 1`] = `
+<div
+  className="Grid-container undefined"
+>
+  <div
+    className="grid"
+  >
+    <div
+      className="header"
+    >
+      <div
+        className="item header-project-item"
+      >
+        Project
+      </div>
+      <div
+        className="item header-deadline-item"
+      >
+        Deadline
+      </div>
+      <div
+        className="item header-case_id-item"
+      >
+        Case ID
+      </div>
+      <div
+        className="item header-status-item"
+      >
+        Status
+      </div>
+    </div>
+    <withRouter(Connect(GridContent))
+      filterFunction={[Function]}
+    />
+  </div>
+</div>
+`;

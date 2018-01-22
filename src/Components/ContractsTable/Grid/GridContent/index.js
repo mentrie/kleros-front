@@ -8,7 +8,7 @@ import { getContracts } from '../../../../redux/contracts/action-creators'
 import { truncateText } from '../../../../helpers/truncateText'
 import './GridContent.css'
 
-class GridContent extends Component {
+export class GridContent extends Component {
   componentWillMount () {
     this.props.getDataContracts()
   }
